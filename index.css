@@ -81,7 +81,7 @@ body{
     .custom-btn{
         width: 50px;
         height: 50px;
-        font-size: 25px;
+        font-size: 20px;
         border-radius: 03px;
     }
     .container1{
@@ -97,9 +97,9 @@ body{
       }
       .container1{
         flex-direction: column;
-        font-size: 17px;
+        font-size: 15px;
       }
       h1 .container1{
-        font-size: 17px;
+        font-size: 15px;
        }
   }
