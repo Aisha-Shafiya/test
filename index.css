@@ -1,0 +1,103 @@
+body{
+    background-image: url('index.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+  .container2{
+    color: white;
+    position: relative;
+  text-align: center;
+  font-size: 45px;
+  margin-bottom: 100px;
+  font-family: 'Megrim', cursive;
+  text-shadow: 
+        0 0 5px #0bf908,
+        0 0 10px #0bf4f3,
+        0 0 20px #0bf4f3,
+        0 0 40px #0bf4f3,
+        0 0 80px #0bf4f3;
+}
+
+
+.btn1 {
+    border: none;
+    background-color: #ff9aff;
+    /* box-shadow: 0 0 5px #ef97e8; */
+    box-shadow: 0 0 10px #045555, 0 0 20px #e6dc54, 0 0 20px #1f1616 inset;
+  }
+  .btn1:hover {
+     box-shadow: 0 0 10px #ef97e8, 0 0 20px #ef97e8, 0 0 20px #fff inset;
+  }
+  .custom-btn{
+  color: #fff;
+  width: 150px;
+  height: 140px;
+  padding: 10px 10px;
+  font-size: 100px;
+   margin-left: 10px;
+  font-family: 'Lato', sans-serif;
+  font-weight: bolder;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  border-radius: 20px;
+  }
+
+  .container {
+
+    text-align: center;
+  }
+
+  .container1{
+    display: flex;
+    gap:25px;
+    text-align: center;
+    justify-content: center;
+    font-size: 45px;
+    color: #fff;
+    text-align: center;
+    animation: container1 1s ease-in-out infinite alternate;
+    
+  }
+ h1 .container1{
+  font-size: 50px;
+ }
+  @-webkit-keyframes container1 {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    
+    to {
+      text-shadow: 0 0 20px #f1eff1, 0 0 30px #c78050, 0 0 40px #e256b4, 0 0 50px #e43737, 0 0 60px #eec749, 0 0 70px #df415b, 0 0 80px #ff4da6;
+    }
+  }
+
+  @media only screen and (max-width: 768px){
+    .custom-btn{
+        width: 50px;
+        height: 50px;
+        font-size: 25px;
+        border-radius: 03px;
+    }
+    .container1{
+        display: flex;
+        gap:20px;
+        text-align: center;
+        justify-content: center;
+     
+      }
+      .container2{
+        font-size: 20px;
+        
+      }
+      .container1{
+        font-size: 12px;
+      }
+      h1 .container1{
+        font-size: 12px;
+       }
+  }

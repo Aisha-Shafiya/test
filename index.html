@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  
+    <h1 class="container2">Click on Letters from Start to End</h1>
+
+   <audio id="sound" loop>
+      <source src="Tune/Music2.mp3" type="audio/mp3">
+   </audio>
+   <div class="container">
+    <button onclick="screen1()" class="btn1 custom-btn">A</button> 
+    <button onclick="screen2()" class="btn1 custom-btn">A</button>  
+    <button onclick="screen3()" class="btn1 custom-btn">D</button> 
+    <button onclick="screen4()" class="btn1 custom-btn">I</button> 
+    <button onclick="screen5()" class="btn1 custom-btn">L</button> 
+  </div>  
+  <div class="container1">
+    <h1 id="I"></h1>
+    <h1 id ="L"></h1>
+    <h1 id="Y"></h1>
+    <h1 id="M"></h1>
+    <h1 id="A"></h1>
+  </div >
+</body>
+<script>
+    //  var bleep = new Audio();
+    // bleep.src = "Tune/Tune1.mp3"
+    window.addEventListener( 'click', () => {
+        document.getElementById('sound').play();
+    })
+  function screen1(){
+    document.getElementById('I').innerHTML = "I"
+  }
+  function screen2(){
+    document.getElementById('L').innerHTML = "Love"
+  }
+  function screen3(){
+    document.getElementById('Y').innerHTML = "You"
+  }
+  function screen4(){
+    document.getElementById('M').innerHTML = "Mohammed";
+  }
+  function screen5(){
+    document.getElementById('A').innerHTML = "Aadil"
+  }
+</script>
+</html>
