@@ -9,6 +9,7 @@ body{
     position: relative;
   text-align: center;
   font-size: 45px;
+      margin-top:50px;
   margin-bottom: 100px;
   font-family: 'Megrim', cursive;
   text-shadow: 
@@ -95,9 +96,9 @@ body{
         
       }
       .container1{
-        font-size: 12px;
+        font-size: 10px;
       }
       h1 .container1{
-        font-size: 12px;
+        font-size: 10px;
        }
   }
